@@ -436,7 +436,6 @@ namespace eosio { namespace cdt {
                   if (as.base == td.new_type_name)
                      return true;
                }
-
             for ( auto v : _abi.variants ) {
                for ( auto vt : v.types ) {
                   if ( remove_suffix(vt) == td.new_type_name )
